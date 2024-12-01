@@ -53,10 +53,10 @@ Technologies used:
 
 
 ## Conclusions and Recommendations
-- Set metrices for next semester and monitor the progress
+- 
 - 
 ### Next steps
-- Compare results of semester 1 with semester 2 and see if the target metrices have been achieved. 
-- Include Student Satisfaction index in the analysis and develop a model to identify factors influecing the SSI. 
+- Analyse student enagement throughout the semster, so that timely interventions (e.g. reminders, announcements) can be made to increase student enagement.
+- Set metrices for next course offering and monitor the progress. 
 
 
