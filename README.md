@@ -38,17 +38,21 @@ In this project,
   - I also did some backward engineering so that the nature of the dataset is also similar to the original one (so that I gain similar insights).
  
 ## Analysis
+The key metrices checked in the analysis:
+- Assessment scores distribution
+- Session duration over final scores
+- Enrolment status vs. final scores
+- Program code vs. grades
+
 Code:
 Technologies used:
 
 
 ## Conclusions and Recommendations
-Key metrices:
-- Final grades
-S
-
+- Set metrices for next semester and monitor the progress
+- 
 ### Next steps
-- Compare results of semester 1 with semester 2 and see if the metrices have been achieved. 
+- Compare results of semester 1 with semester 2 and see if the target metrices have been achieved. 
 - Include Student Satisfaction index in the analysis and develop a model to identify factors influecing the SSI. 
 
 
