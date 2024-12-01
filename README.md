@@ -6,7 +6,8 @@ As a vonluntary project, I conducted a student performance analysis for a course
 
 As the original project cannot be shared owing to confidentiality, I tried to replicate it.
 
-## Project goal, objectives and deliverables<br/>
+## Project goal, objectives and deliverables  
+
 Goal: 
 - To identify areas of improvement to increase course grades.<br/>    
 Objectives:
