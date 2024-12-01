@@ -8,7 +8,7 @@ As the original project cannot be shared owing to confidentiality, I tried to re
 
 ## Project goal, objectives and deliverables
 Goal: 
-- To identify areas of improvement to increase course grades.    
+- To identify areas of improvement to increase course grades.< br / >    
 Objectives:
 - Analyze patterns in student performance, online engagement and enrolement data.
 - Identify factors influencing success or underperformance.
