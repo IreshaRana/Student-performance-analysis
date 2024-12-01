@@ -3,7 +3,7 @@
 I conducted a project, as a vonluntary effort during my university teaching role, to analyse student performance of a course, with the aim of improving teaching and learning activities. With the insights from this analysis I was able to provide recommendations for the course coordinator, on which areas to improve. 
 As the original project cannot be shared owing to confidentiality, I tried to replicate it.
 
-# Project goal, objectives and deliverables
+## Project goal, objectives and deliverables
 Goal: 
 - Provide recommendations to improve teaching and learning activities of this particular course.
 Objectives:
