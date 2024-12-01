@@ -6,14 +6,14 @@ As a vonluntary project, I conducted a student performance analysis for a course
 
 As the original project cannot be shared owing to confidentiality, I tried to replicate it.
 
-## Project goal, objectives and deliverables
+## Project goal, objectives and deliverables<br/>   
 Goal: 
 - To identify areas of improvement to increase course grades.<br/>    
 Objectives:
 - Analyze patterns in student performance, online engagement and enrolement data.
 - Identify factors influencing success or underperformance.
 - Visualize insights to share with stakeholders (course coordinator, degree program leads).
-- Provide recommendations to improve teaching and learning activities
+- Provide recommendations to improve teaching and learning activities.<br/>   
 Deliverables:
 - Key statistics and insights about the students.
 - A dashboard that allows interactive exploration of the data.
