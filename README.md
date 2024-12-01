@@ -22,23 +22,27 @@ Student performance data:
 3.	Assessment scores: Scores for the assessments, calculated as per the weights (15% for the quiz, 35% for the written assessment, 35% for the group project, and 15% for the reflective piece).
 4.	Final Score: Weighted average of the assessments
 Online engagement (with the university Learning Management System or the LMS) data:
-5. Log-in Frequency: number of times
-6. Session Duration: time spent on LMS
+5. Log-in Frequency: number of times per week
+6. Session Duration: time spent on LMS per week
 Enrolment data:
 8.	Enrollment Status: Full-time or Part-time
 
 ## Data preparation
 
 In the original project, 
-- I retrieved student performace data, student engagement data and enrolment data from 3 different sources and merged them together.
-- There were data mismatches between the datasets, so only the students who had a live enrolment status (fulltime or parttime) were included in the final analysis.
+- I had to merge data files.
+  - I retrieved student performace data, student engagement data and enrolment data from 3 different sources and merged them together.
+  - There were data mismatches between the datasets, so only the students who had a live enrolment status (fulltime or parttime) were included in the final analysis.
+- I conducted some data manimupations.
+-   The log-in frequency and session durations data were in a log fie. I manilupated the data so that I could get an average per week value for the duration of the semester.
+  
 In this project, 
 - A synthetic dataset was generated to closely resemble the original merged dataset.
   - Similar variables and number of students) with a sinthetic dataset.
   - I also did some backward engineering so that the nature of the dataset is also similar to the original one (so that I gain similar insights).
  
 ## Analysis
-The key metrices checked in the analysis:
+The analysis was conducted in the following areas:
 - Assessment scores distribution
 - Session duration over final scores
 - Enrolment status vs. final scores
