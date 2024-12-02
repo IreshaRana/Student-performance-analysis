@@ -1,4 +1,4 @@
-# Student-performance-analysis-dashboard
+# Student-performance-analysis
 ## Background
 As a vonluntary project, I conducted a student performance analysis for a course I was teaching. I was able to uncover insights and provide data-driven recommendations to improve student peroformance. 
 
@@ -58,7 +58,7 @@ For this project,
   - Enrolment status over grades (visualisation: pie charts)
   - Session duration over final scores (visualisation: scatter plot)
 
-Code: Open the Jupyter notebook[Student performance](Student performance.ipynb)
+Code: Open the Jupyter notebook - [Student performance](Student performance.ipynb)
 Technologies used: R programming (dplyr, tidyr, ggplot)
 
 ## Conclusions and Recommendations
