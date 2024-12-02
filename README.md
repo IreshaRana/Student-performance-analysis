@@ -42,11 +42,11 @@ The synthetic dataset closely resembles the original merged dataset and includes
    - Reflective Piece: 15%  
 4. `Final Score`: Weighted average of the assessments.
    
-**Online Engagement Data:**
+**Online Engagement Data:**  
 5. `Log-in Frequency`: Number of log-ins per week.  
 6. `Session Duration`: Time spent on the LMS per week.  
 
-**Enrollment Data:**
+**Enrollment Data:**  
 7. `Enrollment Status`: Full-time or Part-time.  
 
 ---
