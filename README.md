@@ -32,14 +32,14 @@ Since the original project cannot be shared due to confidentiality, a synthetic 
 **Synthetic Dataset**  
 The synthetic dataset closely resembles the original merged dataset and includes the following variables:  
 
-**Student Performance Data:**
+**Student Performance Data:**  
 1. `Student ID`: Unique identifier for each student (e.g., S001, S002, ..., S480).
 2. `Program Code`: Values from 1 to 15 (representing different programs).
 3. `Assessment Scores`: Scores for the assessments, calculated as per the weights:  
    - Online Quiz: 15%  
    - Written Assessment: 35%  
    - Group Project: 35%  
-   - Reflective Piece: 15%  
+   - Reflective Piece: 15%
 4. `Final Score`: Weighted average of the assessments.
    
 **Online Engagement Data:**  
