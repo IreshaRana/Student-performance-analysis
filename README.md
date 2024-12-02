@@ -1,83 +1,110 @@
-# Student-performance-analysis
+# Student Performance Analysis
+
 ## Background
-As a vonluntary project, I conducted a student performance analysis for a course I was teaching. I was able to uncover insights and provide data-driven recommendations to improve student peroformance. 
+As a voluntary project, I conducted a student performance analysis for a course I was teaching. The aim was to uncover insights and provide data-driven recommendations to improve student performance.
 
-Requirements for such an analysis:
-- This course was suffering from low grades. There was a need to increase grades, so that the course would become more popular among students. 
-- As this course was being taken by students from various degree programs, the course coodinator wanted to analyse for any areas of support required. 
+### Requirements for the Analysis:
+- The course was experiencing low grades, necessitating strategies to improve grades and enhance its popularity among students.
+- As the course was taken by students from various degree programs, the course coordinator sought to identify areas where additional support might be required.
 
-As the original project cannot be shared owing to confidentiality, I tried to replicate it.
+Since the original project cannot be shared due to confidentiality, a synthetic dataset was generated to replicate the analysis.
 
-## Project goal, objectives and deliverables  
-Goal: 
-- To identify areas of improvement to increase course grades.
- 
-Objectives:
-- Analyze patterns in student performance, online engagement and enrolement data.
-- Identify factors influencing success or underperformance.
-- Visualize insights to share with stakeholders (course coordinator, degree program leads).
-- Provide recommendations to improve teaching and learning activities.
+---
 
-Deliverables:
-- Key statistics and insights about the student performance.
+## Project Goal, Objectives, and Deliverables  
 
-## Data 
-I generated a synthetic data set for this project, as the original data is confidential.
-Student performance data:
-1.	Student ID: Unique identifier for each student (e.g., S001, S002, ..., S480).
-2.	Program Code: values from 1 to 15 (representing different programs).
-3.	Assessment scores: Scores for the assessments, calculated as per the weights (15% for the quiz, 35% for the written assessment, 35% for the group project, and 15% for the reflective piece).
-4.	Final Score: Weighted average of the assessments
-Online engagement (with the university Learning Management System or the LMS) data:
-5. Log-in Frequency: number of times per week
-6. Session Duration: time spent on LMS per week
-Enrolment data:
-8.	Enrollment Status: Full-time or Part-time
+### Goal:
+- Identify areas of improvement to increase course grades.
 
-## Data preparation
-In the original project, 
-- I had to merge data files.
-  - I retrieved student performace data, student engagement data and enrolment data from 3 different sources and merged them together.
-  - There were data mismatches between the datasets, so only the students who had a live enrolment status (fulltime or parttime) were included in the final analysis.
-- I conducted some data manipulations.
--   The log-in frequency and session durations data were in a log fie. I manilupated the data so that I could get an average per week value for the duration of the semester.
-  
-For this project, 
-- A synthetic dataset was generated. 
+### Objectives:
+1. Analyze patterns in student performance, online engagement, and enrollment data.
+2. Identify factors influencing success or underperformance.
+3. Visualize insights to share with stakeholders (course coordinator, degree program leads).
+4. Provide recommendations to improve teaching and learning activities.
 
-## Data generation and Analysis
-- Generate data
-  - Generated a synthetic data  to closely resemble the original merged dataset in terms of variables and student numbers (~480).  
-- Explore data
-  - Calculate summary statistics
-- Data manipulation
-  - Adding a grades column
-- Analysis
-  - Assessment scores distribution (visualisation:box-plot)
-  - Program code over grades (visualisation:bar chart)
-  - Enrolment status over grades (visualisation: pie charts)
-  - Session duration over final scores (visualisation: scatter plot)
+### Deliverables:
+- Key statistics and insights about student performance.
 
-Code: Open the Jupyter notebook - [Student performance.ipynb](Student_performance.ipynb)  
-Technologies used: R programming (dplyr, tidyr, ggplot)
+---
 
-## Conclusions and Recommendations
-In the original project (with the real dataset), I came up with the following insights from the analysis
-- Assessment scores for 3B were generally lower when compared to other assessments, with a lower average score and lower range.
-- Students from certain degree programs were having higher failure %s.
-- Session duration were seen to have a somewhat positive relationship with the final scores, that is, when session duration is high, the students were having higher grades.
-- There was no considerable change in grades when full time and part time students were compared.
+## Data  
 
-Recommendations:
-- Provide clearer guildelines for Assessment 3B and revisit rubric criteria.
-- Have a discussion with program leads of low performing degree programs to see how this course aligns with their overall leaning objectives.
-- Encourage students to actively engage in course material via reminders and increasing inteactive elements in the LMS to further encourage engagement. 
+**Synthetic Dataset**  
+The synthetic dataset closely resembles the original merged dataset and includes the following variables:  
 
- 
-## Next steps
-- Analyse student enagement throughout the semster, so that timely action can be taken to increase engagement (and thereby their final scores).
-- Set metrices for next course offering and monitor the progress. (e.g. engagement metrices for first quarter, first half etc.)
+**Student Performance Data:**
+1. `Student ID`: Unique identifier for each student (e.g., S001, S002, ..., S480).
+2. `Program Code`: Values from 1 to 15 (representing different programs).
+3. `Assessment Scores`: Scores for the assessments, calculated as per the weights:  
+   - Online Quiz: 15%  
+   - Written Assessment: 35%  
+   - Group Project: 35%  
+   - Reflective Piece: 15%  
+4. `Final Score`: Weighted average of the assessments.  
 
-  
+**Online Engagement Data:**
+5. `Log-in Frequency`: Number of log-ins per week.  
+6. `Session Duration`: Time spent on the LMS per week.  
 
+**Enrollment Data:**
+7. `Enrollment Status`: Full-time or Part-time.  
 
+---
+
+## Data Preparation  
+
+### Original Project:
+- **Merging Data Files:**  
+   - Combined student performance, engagement, and enrollment data from three sources.  
+   - Addressed data mismatches and excluded students without a live enrollment status.  
+- **Data Manipulation:**  
+   - Transformed log files to calculate weekly averages for log-in frequency and session duration.  
+
+### Current Project:  
+- Generated a synthetic dataset reflecting the structure and scale (~480 students) of the original data.  
+
+---
+
+## Data Generation and Analysis  
+
+### Steps:
+1. **Data Generation:** Created synthetic data mimicking the original dataset.  
+2. **Data Exploration:** Calculated summary statistics.  
+3. **Data Manipulation:** Added a `Grades` column based on final scores.  
+4. **Analysis and Visualization:**  
+   - Assessment scores distribution: **Box plot**.  
+   - Program codes and grades: **Bar chart**.  
+   - Enrollment status and grades: **Pie chart**.  
+   - Session duration and final scores: **Scatter plot**.  
+
+### Code:
+Open the Jupyter Notebook: [Student_performance.ipynb](Student_performance.ipynb)  
+
+### Technologies Used:
+- **R Programming:** dplyr, tidyr, ggplot2  
+
+---
+
+## Conclusions and Recommendations  
+
+### Insights from the Original Dataset:
+1. **Assessment Scores:**  
+   - Assessment 3B had significantly lower scores compared to other assessments.  
+2. **Program-Specific Performance:**  
+   - Students from certain degree programs exhibited higher failure rates.  
+3. **Engagement and Performance:**  
+   - Session duration had a positive correlation with final scores.  
+4. **Enrollment Status:**  
+   - No significant differences in grades between full-time and part-time students.  
+
+### Recommendations:
+- Provide clearer guidelines for Assessment 3B and revisit its rubric criteria.  
+- Collaborate with program leads of low-performing degree programs to align the course with their objectives.  
+- Encourage active engagement through reminders and interactive elements on the LMS.  
+
+---
+
+## Next Steps  
+
+1. Analyze student engagement throughout the semester to enable timely interventions and improve outcomes.  
+2. Set metrics for the next course offering (e.g., engagement benchmarks for the first quarter, first half, etc.) and monitor progress.  
