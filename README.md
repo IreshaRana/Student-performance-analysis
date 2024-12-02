@@ -40,8 +40,8 @@ The synthetic dataset closely resembles the original merged dataset and includes
    - Written Assessment: 35%  
    - Group Project: 35%  
    - Reflective Piece: 15%  
-4. `Final Score`: Weighted average of the assessments.  
-
+4. `Final Score`: Weighted average of the assessments.
+   
 **Online Engagement Data:**
 5. `Log-in Frequency`: Number of log-ins per week.  
 6. `Session Duration`: Time spent on the LMS per week.  
