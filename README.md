@@ -1,6 +1,8 @@
 # Student-performance-analysis-dashboard
 ## Background
-As a vonluntary project, I conducted a student performance analysis for a course I was teaching. Requirements for such an analysis:
+As a vonluntary project, I conducted a student performance analysis for a course I was teaching. I was able to uncover insights and provide data-driven recommendations to improve student peroformance. 
+
+Requirements for such an analysis:
 - This course was suffering from low grades. There was a need to increase grades, so that the course would become more popular among students. 
 - As this course was being taken by students from various degree programs, the course coodinator wanted to analyse for any areas of support required. 
 
@@ -20,7 +22,7 @@ Deliverables:
 - Key statistics and insights about the students.
 - A dashboard that allows interactive exploration of the data.
 
-## Data
+## Data 
 I generate a synthetic data set for this project, as the original data is confidential.
 Student performance data:
 1.	Student ID: Unique identifier for each student (e.g., S001, S002, ..., S480).
@@ -44,8 +46,7 @@ In the original project,
 For this project, 
 - A synthetic dataset was generated. 
 
-## Analysis
-The analysis was conducted in the following areas:
+## Data generation and Analysis
 - Generate data
   - Generated a synthetic data  to closely resemble the original merged dataset in terms of variables and student numbers (~480).  
 - Explore data
@@ -57,16 +58,27 @@ The analysis was conducted in the following areas:
   - Program code over grades (visualisation:bar chart)
   - Enrolment status over grades (visualisation: pie charts)
   - Session duration over final scores (visualisation: scatter plot)
+- Dashboard creation
 
 Code: Available at xxxx. 
 Technologies used: R programming (dplyr, ggplot, shiny)
 
 ## Conclusions and Recommendations
-The goal of the project was to identify areas of improvement to increase course grades. With the insights from this analysis I was able to provide recommendations for the course coordinator, on which areas to improve. 
+In the original project (with the real dataset), I came up with the following insights from the analysis
+- Assessment scores for 3B were generally lower when compared to other assessments, with a lower average score and lower range.
+- Students from certain degree programs were having higher failure %s.
+- Session duration were seen to have a somewhat positive relationship with the final scores, that is, when session duration is high, the students were having higher grades.
+- There was no considerable change in grades when full time and part time students were compared.
+Recommendations:
+- Provide clearer guildelines for Assessment 3B and revisit rubric criteria.
+- Have a discussion with program leads of low performing degree programs to see how this course aligns with their overall leaning objectives.
+- Encourage students to actively engage in course material via reminders and increasing inteactive elements in the LMS to further encourage engagement. 
 
  
-### Next steps
-- Analyse student enagement throughout the semster, so that timely interventions (e.g. reminders, announcements) can be made to increase student enagement.
-- Set metrices for next course offering and monitor the progress. 
+## Next steps
+- Analyse student enagement throughout the semster, so that timely action can be taken to increase engagement (and thereby their final scores).
+- Set metrices for next course offering and monitor the progress. (e.g. engagement metrices for first quarter, first half etc.)
+
+  
 
 
