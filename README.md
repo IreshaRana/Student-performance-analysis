@@ -58,8 +58,8 @@ For this project,
   - Enrolment status over grades (visualisation: pie charts)
   - Session duration over final scores (visualisation: scatter plot)
 
-Code: Available at Student performance.ipynb 
-Technologies used: R programming (dplyr, tidyr, ggplot, shiny)
+Code: Open the Jupyter notebook [Student performance](Student performance.ipynb)
+Technologies used: R programming (dplyr, tidyr, ggplot)
 
 ## Conclusions and Recommendations
 In the original project (with the real dataset), I came up with the following insights from the analysis
