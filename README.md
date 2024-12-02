@@ -39,15 +39,12 @@ In the original project,
   - There were data mismatches between the datasets, so only the students who had a live enrolment status (fulltime or parttime) were included in the final analysis.
 - I conducted some data manipulations.
 -   The log-in frequency and session durations data were in a log fie. I manilupated the data so that I could get an average per week value for the duration of the semester.
+  
 For this project, 
 - A synthetic dataset was generated. 
 
 ## Analysis
 The analysis was conducted in the following areas:
-
-
-## Data generation and analysis
-
 - Generate data
   - Generated a synthetic data  to closely resemble the original merged dataset in terms of variables and student numbers (~480).  
 - Explore data
