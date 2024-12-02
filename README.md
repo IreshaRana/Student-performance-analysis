@@ -58,7 +58,7 @@ For this project,
   - Enrolment status over grades (visualisation: pie charts)
   - Session duration over final scores (visualisation: scatter plot)
 
-Code: Available at xxxx. 
+Code: Available at Student performance.ipynb 
 Technologies used: R programming (dplyr, tidyr, ggplot, shiny)
 
 ## Conclusions and Recommendations
