@@ -40,19 +40,28 @@ In the original project,
 - I conducted some data manipulations.
 -   The log-in frequency and session durations data were in a log fie. I manilupated the data so that I could get an average per week value for the duration of the semester.
 For this project, 
-- A synthetic dataset was generated to closely resemble the original merged dataset.
-  - Similar variables and number of students 
+- A synthetic dataset was generated. 
 
 ## Analysis
 The analysis was conducted in the following areas:
-- Assessment scores distribution
-- Session duration over final scores
-- Enrolment status vs. final scores
-- Program code vs. grades
 
-## Tech facts
-Code: Available at xxxx
-Technologies used: R programming (
+
+## Data generation and analysis
+
+- Generate data
+  - Generated a synthetic data  to closely resemble the original merged dataset in terms of variables and student numbers (~480).  
+- Explore data
+  - Calculate summary statistics
+- Data manipulation
+  - Adding a grades column
+- Analysis
+  - Assessment scores distribution (visualisation:box-plot)
+  - Program code over grades (visualisation:bar chart)
+  - Enrolment status over grades (visualisation: pie charts)
+  - Session duration over final scores (visualisation: scatter plot)
+
+Code: Available at xxxx. 
+Technologies used: R programming (dplyr, ggplot, shiny)
 
 ## Conclusions and Recommendations
 The goal of the project was to identify areas of improvement to increase course grades. With the insights from this analysis I was able to provide recommendations for the course coordinator, on which areas to improve. 
