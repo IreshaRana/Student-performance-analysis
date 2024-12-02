@@ -20,7 +20,6 @@ Objectives:
 
 Deliverables:
 - Key statistics and insights about the student performance.
-- A dashboard that allows interactive exploration of the data.
 
 ## Data 
 I generated a synthetic data set for this project, as the original data is confidential.
@@ -58,10 +57,9 @@ For this project,
   - Program code over grades (visualisation:bar chart)
   - Enrolment status over grades (visualisation: pie charts)
   - Session duration over final scores (visualisation: scatter plot)
-- Dashboard creation
 
 Code: Available at xxxx. 
-Technologies used: R programming (dplyr, ggplot, shiny)
+Technologies used: R programming (dplyr, tidyr, ggplot, shiny)
 
 ## Conclusions and Recommendations
 In the original project (with the real dataset), I came up with the following insights from the analysis
