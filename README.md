@@ -69,6 +69,7 @@ In the original project (with the real dataset), I came up with the following in
 - Students from certain degree programs were having higher failure %s.
 - Session duration were seen to have a somewhat positive relationship with the final scores, that is, when session duration is high, the students were having higher grades.
 - There was no considerable change in grades when full time and part time students were compared.
+
 Recommendations:
 - Provide clearer guildelines for Assessment 3B and revisit rubric criteria.
 - Have a discussion with program leads of low performing degree programs to see how this course aligns with their overall leaning objectives.
