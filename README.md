@@ -19,11 +19,11 @@ Objectives:
 - Provide recommendations to improve teaching and learning activities.
 
 Deliverables:
-- Key statistics and insights about the students.
+- Key statistics and insights about the student performance.
 - A dashboard that allows interactive exploration of the data.
 
 ## Data 
-I generate a synthetic data set for this project, as the original data is confidential.
+I generated a synthetic data set for this project, as the original data is confidential.
 Student performance data:
 1.	Student ID: Unique identifier for each student (e.g., S001, S002, ..., S480).
 2.	Program Code: values from 1 to 15 (representing different programs).
